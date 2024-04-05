@@ -14,8 +14,8 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-row">
-        <Image src={"/code/ios.png"} sizes="100%" width={0} height={0} className="w-1/2 h-screen" />
-        <Image src={"/code/android.png"} sizes="100%" width={0} height={0} className="w-1/2 h-screen" />
+        <Image alt="IOS image" src={"/code/ios.png"} sizes="100%" width={0} height={0} className="w-1/2 h-screen" />
+        <Image alt="Android image" src={"/code/android.png"} sizes="100%" width={0} height={0} className="w-1/2 h-screen" />
       </div>
     </main>
   );
